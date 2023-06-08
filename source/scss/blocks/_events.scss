@@ -1,0 +1,47 @@
+.events {
+    background-color: #FFC41E;
+    padding-bottom: 80px;
+    &__top {
+        padding-top: 75px;
+        padding-bottom: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    &__img {
+    }
+
+    &__date {
+        padding-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #2E373B;
+    }
+
+    &__link {
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 21px;
+        letter-spacing: -0.01em;
+        color: #F6404F;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    &__text {
+        padding-top: 10px;
+        padding-bottom: 18px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #2E373B;
+    }
+}
+

@@ -1,0 +1,19 @@
+// Файл обнуляющих стилей
+@import "./base/nullstyle.scss";
+//Контейнер
+@import "./base/container.scss";
+
+
+@import "./base/vars.scss";
+// Другие файлы
+
+
+
+
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/block-links";
+@import "./blocks/events";
+@import "./blocks/news";
+@import "./blocks/footer";
+

@@ -1,0 +1,45 @@
+body{
+    font-size: 16px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+.yellow-links {
+    transition: all 0.3s ease-in;
+    &:hover{
+        color: #FFC41E;
+        text-decoration: underline;
+    }
+}
+
+.arrow{
+    padding-top: 6px;
+    padding-left: 10px;
+    &--arow-card{
+        padding-top: 12px;
+        padding-left: 6px;
+    }
+}
+.arrow-black{
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.title-black{
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    color: #2E373B;
+}
+
+.title-link-black{
+    font-weight: 500;
+    font-size: 21px;    
+    letter-spacing: -0.01em;
+    color: #2E373B;
+    &:hover{
+        text-decoration: underline;
+    }
+}

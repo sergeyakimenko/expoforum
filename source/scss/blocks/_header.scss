@@ -1,0 +1,123 @@
+
+.header {
+    background: url(/img/BG/bgc.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 54px;
+    &__top{
+        padding-top: 33px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 33px;
+    }
+
+    &__logo {
+        padding-left: 80px;
+    }
+
+    &__nav {
+        padding-left: 60px;
+    }
+    &__search{
+        padding-left: 60px;
+    }
+
+    &__lang {
+        display: flex;
+        gap: 11px;
+        align-items: center;
+    }
+
+    
+
+    &__wrapper {
+        padding-top: 184px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        padding-bottom: 25px;
+    }
+
+    &__link--link {
+        display: flex;
+        align-items: center;
+    }
+
+    &__cards {
+        margin-top: -100px;
+        display: grid;
+        justify-items: end;
+        justify-content: end;
+        gap: 30px;
+        grid-template: 1fr / repeat(2, auto);
+    }
+
+    &__cards--link{
+        font-size: 14px;
+        line-height: 135%;
+    }
+
+    &__block--blue {
+        background-color: #2378FC;
+        width: 255px;
+        height: 148px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        padding-top: 30px;
+        padding-left: 40px;
+
+    }
+
+    &__block--yellow {
+        width: 255px;
+        height: 175px;
+        background-color: #FFC41E;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+    &__block--skyblue {
+        background-color: #30BCC9;
+        width: 255px;
+        height: 148px;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+
+    &__block--red {
+        width: 255px;
+        height: 175px;
+        background-color: #F6404F;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 130%;
+        letter-spacing: -0.01em;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+}
+
+.border{
+    border-bottom: 1px solid #FFFFFF;
+}
